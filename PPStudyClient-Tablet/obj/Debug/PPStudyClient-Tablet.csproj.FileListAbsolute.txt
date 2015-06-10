@@ -20,3 +20,6 @@ C:\Users\ase\Desktop\PPStudyClients\PPStudyClient-Tablet\bin\Debug\SocketIOClien
 C:\Users\ase\Desktop\PPStudyClients\PPStudyClient-Tablet\bin\Debug\SOD_CS_Library.pdb
 C:\Users\ase\Desktop\PPStudyClients\PPStudyClient-Tablet\bin\Debug\SOD_CS_Library.xml
 C:\Users\ase\Desktop\PPStudyClients\PPStudyClient-Tablet\bin\Debug\WebSocket4Net.pdb
+C:\Users\sydneypratte\Development\PPStudyClient\PPStudyClient-Tablet\bin\Debug\PPStudyClient-Tablet.exe.config
+C:\Users\sydneypratte\Development\PPStudyClient\PPStudyClient-Tablet\obj\Debug\PPStudyClient-Tablet.exe
+C:\Users\sydneypratte\Development\PPStudyClient\PPStudyClient-Tablet\obj\Debug\PPStudyClient-Tablet.pdb

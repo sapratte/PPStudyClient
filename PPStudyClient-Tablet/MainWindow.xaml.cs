@@ -296,7 +296,7 @@ namespace PPStudyClient_Tablet
             wall1_button = AddFeaturesToButton(wall1_button);
 
             // custom features 
-            wall1_button.Content = "WallDisplay 1";
+            wall1_button.Content = "WallDisplay";
             Grid.SetRow(wall1_button, 2);
             Grid.SetColumn(wall1_button, 1);
 
@@ -312,7 +312,7 @@ namespace PPStudyClient_Tablet
             wall2_button = AddFeaturesToButton(wall2_button);
 
             // custom features 
-            wall2_button.Content = "WallDisplay 2";
+            wall2_button.Content = "Display 2";
             Grid.SetRow(wall2_button, 2);
             Grid.SetColumn(wall2_button, 2);
 
