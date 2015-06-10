@@ -603,6 +603,11 @@ namespace PPStudyClient_Tablet
                 CreateStartReceiveButton();
                 CreateResponseButtons();
                 CreateImage();
+
+                table_button.IsEnabled = false;
+                wall1_button.IsEnabled = false;
+                wall2_button.IsEnabled = false;
+                unknown_button.IsEnabled = false;
             }));
         }
 
@@ -611,6 +616,11 @@ namespace PPStudyClient_Tablet
             this.Dispatcher.Invoke((Action)(() =>
             {
                 image.Visibility = System.Windows.Visibility.Visible;
+
+                table_button.IsEnabled = true;
+                wall1_button.IsEnabled = true;
+                wall2_button.IsEnabled = true;
+                unknown_button.IsEnabled = true;
             }));
         }
 
@@ -645,10 +655,7 @@ namespace PPStudyClient_Tablet
         void Start_Receive_Click(object sender, RoutedEventArgs e)
         {
             start_receive_button.IsEnabled = false;
-            table_button.IsEnabled = true;
-            wall1_button.IsEnabled = true;
-            wall2_button.IsEnabled = true;
-            unknown_button.IsEnabled = true;
+            
 
             Dictionary<String, String> payload = new Dictionary<string, string>();
             payload.Add("round", rounds[curr_round].ToString());
